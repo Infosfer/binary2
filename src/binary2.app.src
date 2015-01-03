@@ -1,8 +1,9 @@
 {application, binary2,
  [
   {description, ""},
-  {vsn, git},
+  {vsn, ""},
   {modules, []},  
   {registered, []},
+  {applications, [kernel, stdlib]},  
   {env, []}
  ]}.
